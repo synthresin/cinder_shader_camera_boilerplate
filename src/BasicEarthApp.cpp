@@ -28,7 +28,7 @@ void BasicEarthApp::setup()
         std::cout << exc.what() << std::endl;
     } catch (...) {
         std::cout << "unknown error" << std::endl;
-    }ㅊ
+    }
 }
 
 void BasicEarthApp::mouseDown( MouseEvent event )
