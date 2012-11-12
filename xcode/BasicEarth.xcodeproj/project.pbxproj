@@ -21,6 +21,7 @@
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 		C6E4CD6016509E280040F322 /* vert.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C6E4CD5F16509E280040F322 /* vert.glsl */; };
 		C6E4CD6216509E2F0040F322 /* frag.glsl in Resources */ = {isa = PBXBuildFile; fileRef = C6E4CD6116509E2F0040F322 /* frag.glsl */; };
+		C6E4CD641650E4720040F322 /* earth_tex.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C6E4CD631650E4720040F322 /* earth_tex.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		8D1107320486CEB800E47090 /* BasicEarth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicEarth.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6E4CD5F16509E280040F322 /* vert.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = vert.glsl; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		C6E4CD6116509E2F0040F322 /* frag.glsl */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = frag.glsl; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		C6E4CD631650E4720040F322 /* earth_tex.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth_tex.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,7 @@
 		29B97317FDCFA39411CA2CEA /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				C6E4CD631650E4720040F322 /* earth_tex.jpg */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				00CCAF14116A9FEE008396D5 /* CinderApp.icns */,
 				C6E4CD5F16509E280040F322 /* vert.glsl */,
@@ -200,6 +203,7 @@
 				00CCAF15116A9FEE008396D5 /* CinderApp.icns in Resources */,
 				C6E4CD6016509E280040F322 /* vert.glsl in Resources */,
 				C6E4CD6216509E2F0040F322 /* frag.glsl in Resources */,
+				C6E4CD641650E4720040F322 /* earth_tex.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
