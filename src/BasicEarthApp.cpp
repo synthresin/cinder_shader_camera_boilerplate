@@ -2,6 +2,8 @@
 #include "cinder/gl/gl.h"
 #include "cinder/Camera.h"
 #include "cinder/gl/GlslProg.h"
+#include "cinder/gl/Texture.h"
+#include "cinder/ImageIo.h"
 
 using namespace ci;
 using namespace ci::app;
@@ -14,8 +16,13 @@ class BasicEarthApp : public AppBasic {
 	void update();
 	void draw();
     
-    CameraPersp mCam;
-    gl::GlslProg mShader;
+    CameraPersp     mCam;
+    gl::GlslProg    mShader;
+    gl::Texture     mTex;
+    Vec3f           mLightPosition;
+    
+    Vec3f mBrickColor, mMortarColor;
+    Vec2f mBrickPct, mBrickSize;
 };
 
 void BasicEarthApp::setup()
@@ -29,6 +36,25 @@ void BasicEarthApp::setup()
     } catch (...) {
         std::cout << "unknown error" << std::endl;
     }
+    
+    gl::Texture::Format format = gl::Texture::Format();
+    format.setTarget(GL_TEXTURE_2D);
+    format.setWrapS(GL_REPEAT);
+    format.setWrapT(GL_REPEAT);
+    format.setMagFilter(GL_LINEAR);
+    format.setMinFilter(GL_LINEAR);
+    mTex = gl::Texture( loadImage( loadResource("earth_tex.jpg") ), format );
+    
+    
+    mLightPosition = Vec3f(0.0, 0.0,300.0f);
+    
+    // 벽돌 색깔 설정
+    mBrickColor = Vec3f(0.6, 0.2, 0.3);
+    mMortarColor = Vec3f(0.7, 0.7, 0.7);
+    
+    // 벽돌 사이즈 설정
+    mBrickSize = Vec2f(10.0, 4.0);
+    mBrickPct = Vec2f(0.9, 0.8);
 }
 
 void BasicEarthApp::mouseDown( MouseEvent event )
@@ -38,18 +64,25 @@ void BasicEarthApp::mouseDown( MouseEvent event )
 void BasicEarthApp::update()
 {
     mCam.lookAt(Vec3f(0.0, 0.0, 500.0f), Vec3f::zero(), Vec3f::yAxis());
-    gl::setMatrices(mCam);
+    
     
 }
 
 void BasicEarthApp::draw()
 {
+    gl::setMatrices(mCam);
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
-    
     mShader.bind();
-    gl::drawSphere(Vec3f::zero(), 50.0f);
+    mShader.uniform("LightPosition", mLightPosition);
+    mShader.uniform("BrickColor", mBrickColor);
+    mShader.uniform("BrickPct", mBrickPct);
+    mShader.uniform("BrickSize", mBrickSize);
+    mShader.uniform("MortarColor", mMortarColor);
+    gl::drawSphere(Vec3f::zero(), 100.0f);
     mShader.unbind();
+    
+
     
     
 }
