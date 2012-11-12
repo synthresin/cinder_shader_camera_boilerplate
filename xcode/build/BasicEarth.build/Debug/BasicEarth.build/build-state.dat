@@ -1,0 +1,197 @@
+TBasicEarth
+v5
+r1
+cCheck dependencies
+cProcessInfoPlistFile /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/Info.plist Info.plist
+cCpResource CinderApp.icns ./build/Debug/BasicEarth.app/Contents/Resources/CinderApp.icns
+cProcessPCH++ /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch.pth BasicEarth_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cCompileC ./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarthApp.o /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/../src/BasicEarthApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/MacOS/BasicEarth normal i386
+cTouch /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk
+c0000000050945C7600000000000000AA
+t1351900278
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Accelerate.framework/Accelerate
+c00000000505A3E6E00000000000024F0
+t1348091502
+s9456
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+c00000000505A3E6E0000000000024D90
+t1348091502
+s150928
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/AudioUnit.framework/AudioUnit
+c00000000505A3E6E00000000000060B4
+t1348091502
+s24756
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c00000000505A3E6E00000000000001E5
+t1348091502
+s485
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk/System/Library/Frameworks/CoreAudio.framework/CoreAudio
+c00000000505A3E6E000000000000E920
+t1348091502
+s59680
+
+N/System/Library/Frameworks/Carbon.framework/Carbon
+c00000000501015C300000000000069F0
+t1343231427
+s27120
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c00000000501015C30000000000006730
+t1343231427
+s26416
+
+N/System/Library/Frameworks/CoreVideo.framework/CoreVideo
+c00000000505A399E0000000000081CB0
+t1348090270
+s531632
+
+N/System/Library/Frameworks/OpenGL.framework/OpenGL
+c00000000505A39A3000000000002DAF0
+t1348090275
+s187120
+
+N/System/Library/Frameworks/QTKit.framework/QTKit
+c0000000050592BA800000000004A2D90
+t1348021160
+s4861328
+
+N/System/Library/Frameworks/QuickTime.framework/QuickTime
+c00000000505A39A30000000000322E20
+t1348090275
+s3288608
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/../src/BasicEarthApp.cpp
+c0000000050A0664B000000000000033E
+t1352689227
+s830
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarth.LinkFileList
+c0000000050A0664B000000000000008B
+t1352689227
+s139
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarthApp.o
+t2
+s0
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app
+t2
+s0
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/Info.plist
+t2
+s0
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/MacOS/BasicEarth
+t2
+s0
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/PkgInfo
+t2
+s0
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/Resources/CinderApp.icns
+t2
+s0
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/BasicEarth_Prefix.pch
+c0000000050A065980000000000000093
+t1352689048
+s147
+i<Cocoa/Cocoa.h>
+
+N/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/CinderApp.icns
+c0000000050A06598000000000001BEB5
+t1352689048
+s114357
+
+N/var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch.pth
+t2
+s0
+
+NInfo.plist
+c0000000050A065980000000000000350
+t1352689048
+s848
+
+CBuild AST from /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/../src/BasicEarthApp.cpp
+r0
+
+CCheck dependencies
+r0
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies1b6387cb9d50b641^bb0d8ecb9d50b641^---0#1#0#--18"Check dependencies36"E0D16588-93DD-49C3-B57A-B60C38D7AF17-
+
+CCompileC ./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarthApp.o /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/../src/BasicEarthApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374382027.720111
+e374382029.578259
+r1
+xCompileC
+x./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarthApp.o
+x/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/../src/BasicEarthApp.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection87"Compile /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/../src/BasicEarthApp.cpp0473b8cb9d50b641^3e0994cd9d50b641^---0#0#0#-19%DVTDocumentLocation2@95"file://localhost/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/../src/BasicEarthApp.cpp0000000000000000^2860"CompileC ./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarthApp.o ../src/BasicEarthApp.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/BasicEarth-generated-files.hmap -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/BasicEarth-own-target-headers.hmap -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/BasicEarth-all-target-headers.hmap -iquote /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/BasicEarth-project-headers.hmap -iquote../../../include -iquote../include -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/build/Debug/include -I../../../boost -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/DerivedSources/i386 -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/DerivedSources -F/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/build/Debug -include /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch -MMD -MT dependencies -MF /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarthApp.d --serialize-diagnostics /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarthApp.dia -c /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/../src/BasicEarthApp.cpp -o /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarthApp.o36"0D7604E9-BA4C-4826-8749-7FF94B1950F9-
+
+CCpResource CinderApp.icns ./build/Debug/BasicEarth.app/Contents/Resources/CinderApp.icns
+s374382027.568908
+e374382027.571146
+r1
+xCpResource
+xCinderApp.icns
+x./build/Debug/BasicEarth.app/Contents/Resources/CinderApp.icns
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection67"Copy ./build/Debug/BasicEarth.app/Contents/Resources/CinderApp.icns80b691cb9d50b641^9ca5a0cb9d50b641^---0#0#0#-19%DVTDocumentLocation2@133"file://localhost/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/Resources/CinderApp.icns000000000080d041^436"CpResource CinderApp.icns ./build/Debug/BasicEarth.app/Contents/Resources/CinderApp.icns    cd /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode    builtin-copy -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -exclude .hg -resolve-src-symlinks /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/CinderApp.icns /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/Resources36"D2A10956-DC7A-4DD5-85FC-C8742F56A3EB-
+
+CLd /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/MacOS/BasicEarth normal i386
+s374382029.585156
+e374382029.968009
+r1
+xLd
+x/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/MacOS/BasicEarth
+xnormal
+xi386
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection114"Link /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/MacOS/BasicEarth3fe095cd9d50b641^39d0f7cd9d50b641^---0#0#0#--1061"Ld ./build/Debug/BasicEarth.app/Contents/MacOS/BasicEarth normal i386    cd /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode    setenv MACOSX_DEPLOYMENT_TARGET 10.5    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -L/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/build/Debug -F/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/build/Debug -filelist /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/Objects-normal/i386/BasicEarth.LinkFileList -mmacosx-version-min=10.5 ../../..//lib/libcinder_d.a -lcurl -framework Cocoa -framework OpenGL -framework Carbon -framework CoreVideo -framework QTKit -framework QuickTime -framework Accelerate -framework AudioToolbox -framework AudioUnit -framework CoreAudio -o /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/MacOS/BasicEarth36"94805C83-7D1D-4F1E-879F-4729B9683E4A-
+
+CProcessInfoPlistFile /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/Info.plist Info.plist
+s374382027.558535
+e374382027.561369
+r1
+xProcessInfoPlistFile
+x/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/Info.plist
+xInfo.plist
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Process Info.plist130c8fcb9d50b641^9dd88fcb9d50b641^---0#0#0#-19%DVTDocumentLocation2@81"file://localhost/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/Info.plist0000000000000000^441"ProcessInfoPlistFile ./build/Debug/BasicEarth.app/Contents/Info.plist Info.plist    cd /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode    builtin-infoPlistUtility Info.plist -genpkginfo /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app/Contents/Info.plist36"F79DA7AD-549D-45DA-AF29-F9B185482E13-
+
+CProcessPCH++ /Users/synthresin/Library/Developer/Xcode/DerivedData/BasicEarth-ayiiibxrykwljweqtpptrqfnhlaf/Index/PrecompiledHeaders/BasicEarth_Prefix-ctobnvdofdvfzjbrvltncbdzcplj_ast/BasicEarth_Prefix.pch.pth BasicEarth_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.astbuilder
+r0
+
+CProcessPCH++ /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch.pth BasicEarth_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s374382027.579070
+e374382027.713204
+r1
+xProcessPCH++
+x/var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch.pth
+xBasicEarth_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection32"Precompile BasicEarth_Prefix.pchafb494cb9d50b641^f696b6cb9d50b641^---0#0#0#-19%DVTDocumentLocation2@92"file://localhost/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/BasicEarth_Prefix.pch0000000000000000^2856"ProcessPCH++ /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch.pth BasicEarth_Prefix.pch normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode    setenv LANG en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++-header -arch i386 -fmessage-length=0 -Wno-trigraphs -fpascal-strings -O0 -Wno-missing-field-initializers -Wno-missing-prototypes -Wreturn-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wformat -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.8.sdk -fasm-blocks -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.5 -g -Wno-sign-conversion -iquote /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/BasicEarth-generated-files.hmap -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/BasicEarth-own-target-headers.hmap -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/BasicEarth-all-target-headers.hmap -iquote /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/BasicEarth-project-headers.hmap -iquote../../../include -iquote../include -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/build/Debug/include -I../../../boost -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/DerivedSources/i386 -I/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/BasicEarth.build/Debug/BasicEarth.build/DerivedSources -F/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/build/Debug --serialize-diagnostics /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch.dia -c /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/BasicEarth_Prefix.pch -o /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch.pth -MMD -MT dependencies -MF /var/folders/rx/5920lwf5777bzm51lrsn28900000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/BasicEarth_Prefix-epgoocfbdkaippdpvnitnlueedcl/BasicEarth_Prefix.pch.d36"69E44610-E3D0-4243-9E9B-5FF3C6356D54-
+
+CTouch /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app
+s374382029.976117
+e374382029.981079
+r1
+xTouch
+x/Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app
+lSLF05#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection89"Touch /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.appeeeef9cd9d50b641^6f29fbcd9d50b641^---0#0#0#--203"Touch ./build/Debug/BasicEarth.app    cd /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode    /usr/bin/touch -c /Users/synthresin/Desktop/cinder/apps/BasicEarth/xcode/./build/Debug/BasicEarth.app36"4D2382D6-6458-41D1-90C0-3CDAF95D0299-
+
