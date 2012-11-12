@@ -23,7 +23,7 @@ void BasicEarthApp::setup()
     mCam.setPerspective(75.0f, getWindowAspectRatio(), 50.0f, 5000.0f);
     
     try {
-        mShader = gl::GlslProg("vert.glsl","frag.glsl");
+        mShader = gl::GlslProg(loadResource("vert.glsl"),loadResource("frag.glsl"));
     } catch (gl::GlslNullProgramExc &exc) {
         std::cout << exc.what() << std::endl;
     } catch (...) {
@@ -38,7 +38,7 @@ void BasicEarthApp::mouseDown( MouseEvent event )
 void BasicEarthApp::update()
 {
     mCam.lookAt(Vec3f(0.0, 0.0, 500.0f), Vec3f::zero(), Vec3f::yAxis());
-    
+    gl::setMatrices(mCam);
     
 }
 
@@ -47,9 +47,9 @@ void BasicEarthApp::draw()
 	// clear out the window with black
 	gl::clear( Color( 0, 0, 0 ) );
     
-    gl::setMatrices(mCam);
-    
+    mShader.bind();
     gl::drawSphere(Vec3f::zero(), 50.0f);
+    mShader.unbind();
     
     
 }
